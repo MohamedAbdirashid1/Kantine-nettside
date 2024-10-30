@@ -26,3 +26,7 @@ body{
     position: relative;
     bottom:0px
 }
+
+p {
+    color: pink;
+}
