@@ -11,6 +11,9 @@ body{
     height: 240px;
     display: flex;
     flex-direction: column;
+    display: inline-block;
+    border-radius: 10px;
+    border:7px
 }
 .matliste p{
     text-align: center;
@@ -26,3 +29,11 @@ body{
     position: relative;
     bottom:0px
 }
+
+.firkant {
+    border: solid;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
