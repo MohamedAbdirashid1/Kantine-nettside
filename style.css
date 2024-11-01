@@ -1,37 +1,59 @@
-#overskrift{
+.header{
+    background-color: rgb(44, 51, 49);
+    border-radius: 10px;
+    margin-top: 0px;
+    height: 70px;
+
+}
+.header h1{
+    color: #fafafa;
     font-size: 50px;
+    font-family: "Honk", system-ui;
     text-align: center;
+    margin: auto;
 }
 body{
     background-color: aliceblue;
 }
 .matliste {
-    background-color: rgb(126, 136, 147);
+    background-color: rgb(92, 92, 92);
+    flex-direction: row;
+    display: flex;
+    display: grid;
+    gap: 30px;
+}
+.matliste div {
+    position: relative;
+    background-color: rgb(128, 139, 150);
     width: 160px;
     height: 240px;
-    display: flex;
-    flex-direction: column;
-    display: grid;
     border-style: groove;
     border-radius: 10px;
+    border-color: antiquewhite;
 }
 .matliste p{
+    color: antiquewhite;
     font-size: 20px;
+    font-family: "Assistant", sans-serif;
     text-align: center;
-
     margin: 20px;
 }
 .matliste img{
     width: 75px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 40px;
+    margin-right: 50px;
     border-bottom: 0px;
 }
 .matliste h1{
+    color: antiquewhite;
     font-size: 35px;
+    font-family: "Roboto Condensed", sans-serif;
+    position: absolute;
     text-align: center;
-    position: relative;
-    bottom:0px
+    margin: 0px;
+    margin-left: 25%;
+    margin-right: 25%;
+    bottom:20px
 }
 
 .firkant {
