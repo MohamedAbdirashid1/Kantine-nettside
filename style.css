@@ -12,12 +12,18 @@
     text-align: center;
     margin: auto;
 }
+.nav{
+    display:flex;
+    gap: 20px;
+    justify-content: center;
+}
 body{
-    background-color: aliceblue;
+    background-color: rgb(215, 215, 215);
 }
 .matliste {
     background-color: rgb(92, 92, 92);
     flex-direction: row;
+    justify-content: center;
     display: flex;
     display: grid;
     gap: 30px;
@@ -37,6 +43,7 @@ body{
     font-family: "Assistant", sans-serif;
     text-align: center;
     margin: 20px;
+    margin-bottom: 10px;
 }
 .matliste img{
     width: 75px;
