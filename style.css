@@ -14,28 +14,38 @@
 }
 .nav{
     display:flex;
-    gap: 20px;
     justify-content: center;
+    gap: 35px;
+}
+.nav a{
+    font-size: 22px;
+    font-family: "Fredoka", sans-serif;
+    color: rgb(123, 123, 123);
 }
 body{
     background-color: rgb(215, 215, 215);
 }
+.menutitle h1{
+    font-family: "Anton", sans-serif;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 3px 3px aliceblue;
+}
 .matliste {
-    background-color: rgb(92, 92, 92);
+    display: flex;
     flex-direction: row;
     justify-content: center;
-    display: flex;
-    display: grid;
     gap: 30px;
 }
 .matliste div {
-    position: relative;
     background-color: rgb(128, 139, 150);
+    position: relative;
     width: 160px;
     height: 240px;
-    border-style: groove;
     border-radius: 10px;
+    border-style: groove;
     border-color: antiquewhite;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.372);
 }
 .matliste p{
     color: antiquewhite;
@@ -61,12 +71,5 @@ body{
     margin-left: 25%;
     margin-right: 25%;
     bottom:20px
-}
-
-.firkant {
-    border: solid;
-    width: 100px;
-    height: 100px;
-    display: inline-block;
 }
 
