@@ -25,6 +25,30 @@
 body{
     background-color: rgb(215, 215, 215);
 }
+.hovedhjem{
+    background-color: rgb(128, 139, 150);
+    border-radius: 10px;
+    border-style: groove;
+    border-color: antiquewhite;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.372);
+}
+.hovedhjem img{
+    width: 40%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 02%;
+    border-radius: 10px;
+}
+.hovedhjem p{
+    color: rgb(234, 234, 234);
+    font-family: "Assistant", sans-serif;
+    font-size: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.hovedhjem a{
+    color: rgb(0, 0, 0);
+}
 .menutitle h1{
     font-family: "Anton", sans-serif;
     font-size: 40px;
@@ -34,12 +58,14 @@ body{
 .matliste {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 30px;
 }
 .matliste div {
     background-color: rgb(128, 139, 150);
     position: relative;
+    justify-content: stretch;
     width: 160px;
     height: 240px;
     border-radius: 10px;
