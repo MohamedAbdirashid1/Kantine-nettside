@@ -16,6 +16,8 @@
     display:flex;
     justify-content: center;
     gap: 35px;
+    margin-top: 05px;
+    margin-bottom: 15px;
 }
 .nav a{
     font-size: 22px;
@@ -26,6 +28,9 @@ body{
     background-color: rgb(215, 215, 215);
 }
 .hovedhjem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: rgb(128, 139, 150);
     border-radius: 10px;
     border-style: groove;
@@ -33,18 +38,21 @@ body{
     box-shadow: 5px 5px rgba(0, 0, 0, 0.372);
 }
 .hovedhjem img{
-    width: 40%;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 02%;
+    width: 70%;
+    max-width: 500px;
+    min-width: 100px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 2%;
     border-radius: 10px;
 }
 .hovedhjem p{
     color: rgb(234, 234, 234);
     font-family: "Assistant", sans-serif;
-    font-size: 30px;
-    margin-left: 10%;
-    margin-right: 10%;
+    font-size: clamp(1.2rem, 5vw, 2rem);
+    
+    margin-left: 5%;
+    margin-right: 5%;
 }
 .hovedhjem a{
     color: rgb(0, 0, 0);
