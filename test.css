@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    flex-direction: row; /* Side-by-side layout on larger screens */
+    align-items: center;
+}
+
+.image {
+    margin-right: 20px; /* Space between image and text on larger screens */
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; /* Stacks image above text on smaller screens */
+        align-items: flex-start; /* Optional: Aligns items to the left on smaller screens */
+    }
+
+    .image {
+        margin-right: 0; /* Remove margin on smaller screens */
+        margin-bottom: 10px; /* Add space between image and text when stacked */
+    }
+}
