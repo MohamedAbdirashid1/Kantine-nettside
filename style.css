@@ -36,6 +36,7 @@ body{
     border-style: groove;
     border-color: antiquewhite;
     box-shadow: 5px 5px rgba(0, 0, 0, 0.372);
+    margin-bottom: 150px;
 }
 .hovedhjem img{
     width: 70%;
