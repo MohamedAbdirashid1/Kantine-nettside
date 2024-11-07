@@ -6,6 +6,8 @@ Ting man kan gjøre på nettsiden:
 - Finne *veldig* nyttig **kontaktinformasjon**
 - Se hva kantinen *virkelig* står for (tror jeg)
 
+**HTML og CSS har blitt brukt til å lage nettsiden.**
+
 For å starte programmet trenger du bare kjøre et av HTML-filene, enten lokalt via nettleseren din, eller via live-server.
 
 Du kan også besøke nettsiden her: [Kantine-side](https://mohamedabdirashid1.github.io/Kantine-nettside/meny.html)
@@ -17,7 +19,7 @@ Du kan også besøke nettsiden her: [Kantine-side](https://mohamedabdirashid1.gi
 #### Brukertesting:
 - Lærere
 - Venner
-
+---
 # Her er en *veldig* inspirerende setning:
 > du har kneoperasjon imgorgen
 
