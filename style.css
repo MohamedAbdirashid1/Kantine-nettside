@@ -66,15 +66,15 @@ body{
 }
 .matliste {
     display: flex;
+    justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
     gap: 30px;
 }
 .matliste div {
     background-color: rgb(128, 139, 150);
     position: relative;
-    justify-content: stretch;
+    justify-content: center;
     width: 160px;
     height: 240px;
     border-radius: 10px;
@@ -100,23 +100,24 @@ body{
     color: antiquewhite;
     font-size: 35px;
     font-family: "Roboto Condensed", sans-serif;
-    position: absolute;
     text-align: center;
+    align-items: flex-end;
+    position: absolute;
     margin: 0px;
     margin-left: 25%;
     margin-right: 25%;
-    bottom:20px
+    bottom: 20px;
 }
 .footer{
     background-color: rgba(44, 51, 49, 0.5);
     border-radius: 08px;
     padding: 10px;
-    margin-top: 30px;
+    margin-top: 100px;
 }
 .footer h1{
     color: #fafafa;
     font-family: "Anton", sans-serif;
     text-align: center;
-    font-size: (0.9rem, 5vw, 2rem);
+    font-size: clamp(0.9rem, 5vw, 2rem);
 }
 
