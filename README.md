@@ -4,7 +4,7 @@ Ting man kan gjøre på nettsiden:
 
 - Se menyen, som viser mat servert fra Mandag til Fredag
 - Finne *veldig* nyttig **kontaktinformasjon**
-- Se hva kantinen *virkelig* står for (tror jeg)
+- Se hva kantinen *virkelig* står for (på hovedsiden)
 
 **HTML og CSS har blitt brukt til å lage nettsiden.**
 
@@ -21,10 +21,10 @@ Du kan også besøke nettsiden her: [Kantine-side](https://mohamedabdirashid1.gi
 - Venner
 ---
 # Her er en *veldig* inspirerende setning:
-> du har kneoperasjon imgorgen
+> du har kneoperasjon imorgen
 
 
 
-jeg bare tulla, ingen fortalte med noe så dumt
+Jeg bare tulla, ingen fortalte med noe så dumt..
 
 **...eller gjorde de det?**
