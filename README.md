@@ -13,6 +13,7 @@ For å starte programmet trenger du bare kjøre et av HTML-filene, enten lokalt 
 Du kan også besøke nettsiden her: [Kantine-side](https://mohamedabdirashid1.github.io/Kantine-nettside/meny.html)
 
 ## Kilder:
+- W3schools (tips og hjelp)
 - Stack-overflow (hjelp og feilsøking)
 - ChatGPT (tips og feilsøking)
 
