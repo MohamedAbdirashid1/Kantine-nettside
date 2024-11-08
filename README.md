@@ -20,12 +20,3 @@ Du kan også besøke nettsiden her: [Kantine-side](https://mohamedabdirashid1.gi
 #### Brukertesting:
 - Lærere
 - Venner
----
-# Her er en *veldig* inspirerende setning:
-> du har kneoperasjon imorgen
-
-
-
-Jeg bare tulla, ingen fortalte med noe så dumt..
-
-**...eller gjorde de det?**
