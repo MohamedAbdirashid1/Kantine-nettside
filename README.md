@@ -17,6 +17,6 @@ Du kan også besøke nettsiden her: [Kantine-side](https://mohamedabdirashid1.gi
 - Stack-overflow (hjelp og feilsøking)
 - ChatGPT (tips og feilsøking)
 
-#### Brukertesting:
+## Brukertesting:
 - Lærere
 - Venner
