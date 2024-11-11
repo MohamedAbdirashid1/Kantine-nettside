@@ -27,7 +27,7 @@ La oss høre hva Sigurd har å si:
 
 1.	Nettsiden har bra design og lett å navigere mellom de forskjellige sidene.
 
-2.	Hvordan var det å bruke nettsiden? Enkelt og brukervennlig
+2.	Hvordan var det å bruke nettsiden? Enkelt og brukervennlig.
 
 3.	Hva synes du om fargene?  Bra å holde seg til rundt 3-4 av de samme fargene og lett for øynene.
 
