@@ -96,6 +96,16 @@ body{
     margin-right: 50px;
     border-bottom: 0px;
 }
+.matliste h2{
+    color: antiquewhite;
+    font-size: 15px;
+    font-family: "Assistant", sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    margin: 10px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
 .matliste h1{
     color: antiquewhite;
     font-size: 35px;
