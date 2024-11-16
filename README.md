@@ -23,7 +23,7 @@ Du kan også besøke nettsiden her: [Kantine-side](https://mohamedabdirashid1.gi
 
 ### Tilbakemeldinge:
 
-La oss høre hva Sigurd har å si:
+La oss høre hva en av dem har å si:
 
 1.	Nettsiden har bra design og lett å navigere mellom de forskjellige sidene.
 
