@@ -67,56 +67,57 @@ body{
 .matliste {
     display: flex;
     justify-content: center;
-    flex-direction: row;
     flex-wrap: wrap;
     gap: 30px;
 }
 .matliste div {
     background-color: rgb(128, 139, 150);
-    position: relative;
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
     width: 160px;
-    height: 240px;
+    height: 300px;
     border-radius: 10px;
     border-style: groove;
     border-color: antiquewhite;
     box-shadow: 5px 5px rgba(0, 0, 0, 0.372);
+    padding: 10px;
 }
-.matliste p{
+.matliste img {
+    width: 90px;
+    height: auto;
+    margin-bottom: 10px;
+    border-bottom: 0px;
+}
+.matliste p {
     color: antiquewhite;
     font-size: 20px;
     font-family: "Assistant", sans-serif;
     text-align: center;
     margin: 10px;
-    margin-bottom: 10px;
 }
-.matliste img{
-    width: 90px;
-    margin-left: 40px;
-    margin-right: 50px;
-    border-bottom: 0px;
-}
-.matliste h2{
+.matliste h2 {
     color: antiquewhite;
     font-size: 15px;
     font-family: "Assistant", sans-serif;
     text-align: center;
     text-decoration: underline;
     margin: 10px;
-    margin-bottom: 10px;
-    margin-top: 20px;
+    cursor: pointer;
 }
-.matliste h1{
+.matliste h1 {
     color: antiquewhite;
-    font-size: 35px;
+    font-size: 25px;
     font-family: "Roboto Condensed", sans-serif;
     text-align: center;
-    align-items: flex-end;
-    position: absolute;
-    margin: 0px;
-    margin-left: 25%;
-    margin-right: 25%;
-    bottom: 20px;
+    margin: 10px;
+}
+.matliste h2:hover {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    padding: 5px;
 }
 .footer{
     background-color: rgba(44, 51, 49, 0.5);
