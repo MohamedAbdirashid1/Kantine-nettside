@@ -1,4 +1,7 @@
+let buttonlist = [];
+
 function notification(button, ingredienser) {
+    if (buttonlist.includes(button)) return;
     const div = button.parentNode;
 
     const firstP = div.querySelector('p');
@@ -6,14 +9,15 @@ function notification(button, ingredienser) {
     
     const newP = document.createElement('p');
     newP.textContent = `Inneholder: ${ingredienser}`; 
-    check = true;
+    buttonlist.push(button);
 
     const pricePtag = div.querySelector('h1');
     
     div.insertBefore(newP, pricePtag); 
-
+    checkbutton = button;
     setTimeout(() => {
+        const index = buttonlist.indexOf(button);
+        buttonlist.splice(index, 1);
         newP.remove();
-        check = false;
     }, 3000);
 }
